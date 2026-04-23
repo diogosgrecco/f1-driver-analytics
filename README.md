@@ -7,10 +7,12 @@
 [**📥 Download Power BI File**](https://github.com/diogosgrecco/f1-driver-analytics/raw/refs/heads/main/F1%20-%20Dashboard.pbix)
 > **Note:** You will need Power BI Desktop installed to view the interactive `.pbix` file.
 
-📊 Project Overview
+---
+
+## 📊 Project Overview
 This project is a high-performance Head-to-Head (H2H) Comparison Tool designed to analyze Formula 1 driver performance across multiple seasons. Unlike standard reports, this dashboard utilizes a custom-built UI inspired by F1 pit-wall telemetry and broadcast graphics, focusing on clarity, symmetry, and "at-a-glance" insights.
 
-🛠️ Tech Stack & Skills
+## 🛠️ Tech Stack & Skills
 Tool: Power BI Desktop
 
 Data Modeling: Star Schema (Facts: Results | Dimensions: Drivers, Races, Teams)
@@ -19,7 +21,7 @@ UI/UX: Custom Grid Layout, Dark Mode Optimization, Container-based Design
 
 Logic: Advanced DAX for dynamic filtering and conditional formatting.
 
-🌟 Key Features
+## 🌟 Key Features
 Independent Driver Comparison: Uses a disconnected table strategy to allow users to select and compare any two drivers on the grid independently.
 
 F1 "HUD" Interface: A bespoke UI that moves away from "standard" Power BI defaults. Features include:
