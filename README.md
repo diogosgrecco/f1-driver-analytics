@@ -17,8 +17,6 @@ Tool: Power BI Desktop
 
 Data Modeling: Star Schema (Facts: Results | Dimensions: Drivers, Races, Teams)
 
-UI/UX: Custom Grid Layout, Dark Mode Optimization, Container-based Design
-
 Logic: Advanced DAX for dynamic filtering and conditional formatting.
 
 ## 🌟 Key Features
