@@ -4,7 +4,7 @@
 
 
 
-[**📥 Download Power BI File**](https://github.com/diogosgrecco/f1-driver-analytics/raw/refs/heads/main/F1%20-%20Dashboard.pbix)
+[**📥 Download Power BI File**](https://github.com/diogosgrecco/f1-driver-analytics/raw/refs/heads/main/F1%20-%20Dashboard%20V2.pbix)
 > **Note:** You will need Power BI Desktop installed to view the interactive `.pbix` file.
 
 ---
