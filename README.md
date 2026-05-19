@@ -13,8 +13,10 @@
 This project is a high-performance Head-to-Head (H2H) Comparison Tool designed to analyze Formula 1 driver performance across multiple seasons. Unlike standard reports, this dashboard utilizes a custom-built UI inspired by F1 pit-wall telemetry and broadcast graphics, focusing on clarity, symmetry, and "at-a-glance" insights.
 
 ## 🛠️ Tech Stack & Skills
-Tool: Power BI Desktop
+Tools: Power BI Desktop, Azure Databricks, Python/PySpark
 
-Data Modeling: Star Schema (Facts: Results | Dimensions: Drivers, Races, Teams)
+Data Engineering (ETL): Engineered an automated data pipeline in Databricks utilizing a Medallion Architecture (Bronze, Silver, Gold layers). Extracted and transformed raw Formula 1 data ingested from the Ergast REST API.
 
-Logic: Advanced DAX for dynamic filtering and conditional formatting
+Data Modeling: Designed a highly optimized Star Schema in Power BI, establishing robust relationships between dimension tables (Drivers, Circuits, Constructors) and fact tables (Race Results, Qualifying) to ensure efficient data refresh and query performance.
+
+DAX & Analytics: Authored advanced DAX measures to handle complex logic, dynamic filtering contexts, and custom conditional formatting to drive interactive visual insights.
